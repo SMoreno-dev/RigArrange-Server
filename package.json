@@ -1,7 +1,7 @@
 {
   "name": "rigarrange",
   "description": "rigarrange",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "author": "Santiago Moreno, Tomás Wagner",
   "dependencies": {
     "async": "2.6.1",
