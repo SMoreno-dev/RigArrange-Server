@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-nodejs-typescript-express-postgres",
-  "description": "example of node typescript express postgres project",
+  "name": "rigarrange",
+  "description": "rigarrange",
   "version": "1.0.5",
-  "author": "Erik Mangor",
+  "author": "Santiago Moreno, Tomás Wagner",
   "dependencies": {
     "async": "2.6.1",
     "body-parser": "^1.19.0",
@@ -20,7 +20,7 @@
     "typescript": "^2.9.2"
   },
   "engines": {
-    "node": "10.15.2"
+    "node": ">=10.15.2"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon ./src/app.ts"
   }
 }
